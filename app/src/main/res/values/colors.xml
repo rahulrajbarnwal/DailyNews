@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262643</color>
+    <color name="colorPrimaryDark">#11121a</color>
+    <color name="colorAccent">#8787f9</color>
+    <!--00574B-->
+
+    <color name="color_qwe">#060726</color>
+
+    <color name="color_hint">#607D8B</color>
+    <color name="color_text">#282828</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_trans">#00ffffff</color>
+    <color name="color_online">#00C853</color>
+    <color name="color_offline">#D32F2F</color>
+
+
+</resources>

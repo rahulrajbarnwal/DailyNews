@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+            <android.support.v7.widget.SearchView
+                android:id="@+id/et_search"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_10sdp"
+                app:queryHint="search news"
+                android:focusable="true"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                app:searchIcon="@drawable/icon_search_white"
+                android:minHeight="@dimen/_30sdp"
+                android:background="@drawable/bg_searchview"
+                android:textColorHint="@color/color_hint"
+                android:textColor="@color/color_text"
+                app:theme="@style/AppTheme.SearchView"/>
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Indian news sources"
+        android:textSize="17sp"
+        android:textColor="@color/color_text"
+        android:padding="5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_source"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
